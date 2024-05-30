@@ -249,3 +249,93 @@ body {
     border-radius: 50%;
     transition: background-color 0.3s ease;
 }
+
+@media (min-width: 1400px) {  
+    #WordDisplay {
+        font-size: 30px !important;
+    }
+
+    #CorrectCounter {
+        font-size: 18px !important;
+    }
+
+    #contador {
+        font-size: 14px;
+    }
+
+    #WordInput {
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 1200px) {  
+    #WordDisplay {
+        font-size: 40px !important;
+    }
+
+    #CorrectCounter {
+        font-size: 20px !important;
+    }
+
+    #contador {
+        font-size: 16px;
+    }
+
+    #WordInput {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 992px) {  
+    #WordDisplay {
+        font-size: 50px !important;
+    }
+
+    #CorrectCounter {
+        font-size: 30px !important;
+    }
+
+    #contador {
+        font-size: 18px;
+    }
+
+    #WordInput {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) {  
+    #WordDisplay {
+        font-size: 60px !important;
+    }
+
+    #CorrectCounter {
+        font-size: 40px !important;
+    }
+
+    #contador {
+        font-size: 20px;
+    }
+
+    #WordInput {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) {  
+    #WordDisplay {
+        font-size: 80px !important;
+    }
+
+    #CorrectCounter {
+        font-size: 50px !important;
+    }
+
+    #contador {
+        font-size: 30px;
+    }
+
+    #WordInput {
+        font-size: 14px;
+    }
+}

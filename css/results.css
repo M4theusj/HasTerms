@@ -60,3 +60,135 @@ ul {
 p {
     margin: 5px 0;
 }
+@media (min-width: 1400px) {  
+    #ResultTitle {
+        font-size: 30px;
+    }
+
+    #ResultSubtitle {
+        font-size: 18px;
+    }
+
+    #Advice {
+        font-size: 18px;
+    }
+
+    #AcertosTitle, #ErrosTitle {
+        font-size: 14px;
+    }
+
+    #AcertosList, #ErrosList {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1200px) {  
+    #ResultTitle {
+        font-size: 40px;
+    }
+
+    #ResultSubtitle {
+        font-size: 20px;
+    }
+
+    #Advice {
+        font-size: 20px;
+    }
+
+    #AcertosTitle, #ErrosTitle {
+        font-size: 16px;
+    }
+
+    #AcertosList, #ErrosList {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) {  
+    #ResultTitle {
+        font-size: 50px;
+    }
+
+    #ResultSubtitle {
+        font-size: 25px;
+    }
+
+    #Advice {
+        font-size: 25px;
+    }
+
+    #AcertosTitle, #ErrosTitle {
+        font-size: 18px;
+    }
+
+    #AcertosList, #ErrosList {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {  
+    #ResultTitle {
+        font-size: 60px;
+    }
+
+    #ResultSubtitle {
+        font-size: 30px;
+    }
+
+    #Advice {
+        font-size: 30px;
+    }
+
+    #AcertosTitle, #ErrosTitle {
+        font-size: 20px;
+    }
+
+    #AcertosList, #ErrosList {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) {  
+    #ResultTitle {
+        font-size: 70px;
+    }
+
+    #ResultSubtitle {
+        font-size: 35px;
+    }
+
+    #Advice {
+        font-size: 35px;
+    }
+
+    #AcertosTitle, #ErrosTitle {
+        font-size: 25px;
+    }
+
+    #AcertosList, #ErrosList {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    #Words {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Acertos, #Erros {
+        width: 100%;
+    }
+
+    #ResultTitle, #ResultSubtitle, #Advice {
+        font-size: 20px;
+    }
+
+    #AcertosTitle, #ErrosTitle {
+        font-size: 18px;
+    }
+
+    #AcertosList, #ErrosList {
+        font-size: 14px;
+    }
+}
