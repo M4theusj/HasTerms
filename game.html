@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="icon" type="image/x-icon" href="img/Logo.png">
+    <title>HasTerms</title>
+</head>
+<body>
+    <div id="info-modal" class="modal">
+        <div class="modal-content">
+            <p class="modal-header">Vamos realizar um teste para ver o quanto você sabe sobre os termos de programação!</p>
+            <p>Digite seu nome de usuário aqui:</p>
+            <input type="text" id="username-input" placeholder="Digite seu nome de usuário" autocomplete="off">
+            <button id="confirm-username" onclick="confirmUsername()">Confirmar</button>
+        </div>
+    </div>    
+    <div id="main-container">
+        <div id="container">
+            <div id="word-image-container">
+                <p id="WordDisplay"></p>
+                <img src="img/ComoFunciona.png" id="infoimg" onclick="InfoModal()">
+            </div>
+        </div>        
+        <div id="input-container">
+            <input id="WordInput" placeholder="Digite a tradução da palavra." autocomplete="off"></input>
+            <div id="contador">50</div>
+        </div>
+        <button id="ConfirmarButton" onclick="ConfirmarPalavra()">Confirmar</button>
+        <div id="correct-counter-container">
+            <p id="CorrectCounter">0</p>
+        </div>
+    </div>
+    <div id="info-modal-terms" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeInfoModal()">&times;</span>
+            <h2>Como Funciona?</h2>
+            <p>Os termos irão aparecer no topo da tela, tente acertar suas traduções na caixa de texto logo em baixo dele. Assim que você digitar sua primeira palavra nós daremos largada no tempo, se prepare!</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

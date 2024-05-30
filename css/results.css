@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    background-color: #323437; 
+    font-family: 'JetBrains Mono';
+    color: #646669;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#ResultTitle{
+    font-size: 80px;
+}
+
+#ResultSubtitle{
+    font-size: 40px;
+}
+
+#Advice{
+    font-size: 40px;
+}
+
+#AcertosTitle, #ErrosTitle{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#AcertosList, #ErrosList{
+    font-size: 20px;
+}
+
+#Words {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+}
+
+#Acertos, #Erros {
+    width: 40%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+p {
+    margin: 5px 0;
+}
