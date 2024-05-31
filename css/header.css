@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono';
+}
+
+body {
+    background-color: #323437 !important;
+}
+
+header {
+    padding: 2% 15% 0 15%;
+    height: 65px;
+}
+
+.header-content {
+    color: #D9D9D9;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+
+.logo-content {
+    color: #D9D9D9;
+    font-size: 2rem;
+    height: 100%;
+}
+
+.logo-content>p {
+    margin-top: 1vh;
+}
+
+.HasTerms-img-logo {
+    margin-right: 10px;
+    width: 64.48px;
+    height: 61.39px;
+}
+
+.game {
+    text-decoration: none;
+}
+
+.index-img {
+    margin-left: 30px;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .header-content{
+        justify-content: center;
+    }
+    .header-links {
+        display: none;
+    }
+}
