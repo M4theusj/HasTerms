@@ -25,7 +25,6 @@ header {
 .header-content {
     color: #D9D9D9;
     justify-content: space-between;
-    /* justify-content: center; */
 }
 
 .logo-content {
@@ -53,11 +52,12 @@ header {
 }
 
 
-@media only screen and (max-width: 990px) {
-    .header-content{
-        justify-content: center;
-    }
-    .header-links {
+@media only screen and (max-width: 850px) {
+    .logo-content>p {
         display: none;
+    }
+
+    .game > img, .index-img> img{
+        max-width: 80%;
     }
 }
