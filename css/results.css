@@ -13,31 +13,41 @@ body {
     font-family: 'JetBrains Mono';
     color: #646669;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
-#ResultTitle{
+#ResultTitle,
+#ResultSubtitle,
+#Advice,
+#AcertosTitle,
+#ErrosTitle,
+#AcertosList,
+#ErrosList,
+#Words {
+    color: #646669;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#ResultTitle {
     font-size: 80px;
 }
 
-#ResultSubtitle{
+#ResultSubtitle {
     font-size: 40px;
 }
 
-#Advice{
+#Advice {
     font-size: 40px;
 }
 
-#AcertosTitle, #ErrosTitle{
+#AcertosTitle,
+#ErrosTitle {
     font-size: 30px;
     margin-top: 20px;
 }
 
-#AcertosList, #ErrosList{
+#AcertosList,
+#ErrosList {
     font-size: 20px;
 }
 
@@ -48,18 +58,25 @@ body {
     margin-top: 20px;
 }
 
-#Acertos, #Erros {
+#Acertos,
+#Erros {
     width: 40%;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+}
+
+li {
+    text-align: center;
 }
 
 p {
     margin: 5px 0;
 }
+
 @media (min-width: 1400px) {  
     #ResultTitle {
         font-size: 30px;
@@ -73,11 +90,13 @@ p {
         font-size: 18px;
     }
 
-    #AcertosTitle, #ErrosTitle {
+    #AcertosTitle,
+    #ErrosTitle {
         font-size: 14px;
     }
 
-    #AcertosList, #ErrosList {
+    #AcertosList,
+    #ErrosList {
         font-size: 10px;
     }
 }
@@ -95,11 +114,13 @@ p {
         font-size: 20px;
     }
 
-    #AcertosTitle, #ErrosTitle {
+    #AcertosTitle,
+    #ErrosTitle {
         font-size: 16px;
     }
 
-    #AcertosList, #ErrosList {
+    #AcertosList,
+    #ErrosList {
         font-size: 12px;
     }
 }
@@ -117,11 +138,13 @@ p {
         font-size: 25px;
     }
 
-    #AcertosTitle, #ErrosTitle {
+    #AcertosTitle,
+    #ErrosTitle {
         font-size: 18px;
     }
 
-    #AcertosList, #ErrosList {
+    #AcertosList,
+    #ErrosList {
         font-size: 14px;
     }
 }
@@ -139,11 +162,13 @@ p {
         font-size: 30px;
     }
 
-    #AcertosTitle, #ErrosTitle {
+    #AcertosTitle,
+    #ErrosTitle {
         font-size: 20px;
     }
 
-    #AcertosList, #ErrosList {
+    #AcertosList,
+    #ErrosList {
         font-size: 16px;
     }
 }
@@ -161,11 +186,13 @@ p {
         font-size: 35px;
     }
 
-    #AcertosTitle, #ErrosTitle {
+    #AcertosTitle,
+    #ErrosTitle {
         font-size: 25px;
     }
 
-    #AcertosList, #ErrosList {
+    #AcertosList,
+    #ErrosList {
         font-size: 18px;
     }
 }
@@ -176,19 +203,24 @@ p {
         align-items: center;
     }
 
-    #Acertos, #Erros {
+    #Acertos,
+    #Erros {
         width: 100%;
     }
 
-    #ResultTitle, #ResultSubtitle, #Advice {
+    #ResultTitle,
+    #ResultSubtitle,
+    #Advice {
         font-size: 20px;
     }
 
-    #AcertosTitle, #ErrosTitle {
+    #AcertosTitle,
+    #ErrosTitle {
         font-size: 18px;
     }
 
-    #AcertosList, #ErrosList {
+    #AcertosList,
+    #ErrosList {
         font-size: 14px;
     }
 }
