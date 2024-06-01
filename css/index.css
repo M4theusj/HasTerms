@@ -86,6 +86,7 @@ span {
   background-image: url("../img/section3.png");
   height: 85vh;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contentHigh {
