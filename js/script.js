@@ -141,7 +141,7 @@ function displayResults() {
         titleElement.textContent = `Parabéns ${NomeUsuario}`;
         subtitleElement.textContent = 'Você acertou todos os termos!';
     } else
-    if (corretas.length > 5) {
+    if (corretas.length > erradas.length) {
         titleElement.textContent = `Parabéns ${NomeUsuario}`;
         subtitleElement.textContent = 'Você acertou uma boa quantia de traduções!';
     } else {
