@@ -147,6 +147,10 @@ span {
     font-size: 2rem;
     margin-bottom: 50vh;
   }
+
+  .contentHigh{
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
