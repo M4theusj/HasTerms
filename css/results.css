@@ -42,13 +42,16 @@ body {
 
 #AcertosTitle,
 #ErrosTitle {
-    font-size: 30px;
+    width: 100%;
+    text-align: center;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #AcertosList,
 #ErrosList {
-    font-size: 20px;
+    width: 100%;
+    text-align: center;
 }
 
 #Words {
@@ -61,12 +64,16 @@ body {
 #Acertos,
 #Erros {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-left: -20px !important;
 }
 
 li {
