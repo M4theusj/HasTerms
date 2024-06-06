@@ -138,11 +138,11 @@ function displayResults() {
     const subtitleElement = document.getElementById('ResultSubtitle');
 
     if (corretas.length == 10) {
-        titleElement.textContent = `Parabéns ${NomeUsuario}`;
+        titleElement.textContent = `Parabéns, ${NomeUsuario}`;
         subtitleElement.textContent = 'Você acertou todos os termos!';
     } else
     if (corretas.length > erradas.length) {
-        titleElement.textContent = `Parabéns ${NomeUsuario}`;
+        titleElement.textContent = `Parabéns, ${NomeUsuario}`;
         subtitleElement.textContent = 'Você acertou uma boa quantia de traduções!';
     } else {
         titleElement.textContent = `Uh oh, ${NomeUsuario}...`;
